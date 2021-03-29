@@ -17,7 +17,23 @@ Review the pertinent data and when prompted see the raw if you wish
 Once done, simply select no and exit your CLI
 
 ### Files used
-Include the files used
+bikes.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Software used
+
+Python
+Atom
+
+
+Websites used
+
+Stackoverflow
+Python.org
+Pandas.pydata.org
+Reddit r/python
+
+Special thanks to my friend, Matt S for his help with this project!
