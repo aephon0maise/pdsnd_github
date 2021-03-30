@@ -161,6 +161,7 @@ def user_stats(df):
         print('\nNo gender data found')
 
     # Display earliest, most recent, and most common year of birth
+    # Added two exceptions for the Washington data limitations
     try:
         print('\nEarliest year of birth: {}'.format(int(min(df['Birth Year']))))
         print('\nMost recent year of birth: {}'.format(int(max(df['Birth Year']))))
