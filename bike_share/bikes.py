@@ -2,6 +2,12 @@ import time
 import pandas as pd
 import numpy as np
 
+    """
+    This program will help users to see various statistics and information
+    around the bike share program in  Chicago, NYC, and Washington.
+    Additionally, users will be givnen insight into the raw data 
+    """
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
