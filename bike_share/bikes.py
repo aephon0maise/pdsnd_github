@@ -5,7 +5,7 @@ import numpy as np
     """
     This program will help users to see various statistics and information
     around the bike share program in  Chicago, NYC, and Washington.
-    Additionally, users will be givnen insight into the raw data 
+    Additionally, users will be givnen insight into the raw data
     """
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -172,6 +172,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+    """ Here is where the user can gain insight into the raw data """
 def view_data(df):
     """ Shows raw data if requested by user """
     # row indexing
